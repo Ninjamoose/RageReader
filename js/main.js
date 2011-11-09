@@ -57,7 +57,7 @@ var pageLoadSuccess = function(response) {
 								}
 
 								imgURL = imgURL + ".png";
-						    	items.push('<li class="comicContainer" id="' + index + '"><h3 class="comicTitle">' + val.data.title + '</h3><a class="commentsLink" href="http://www.reddit.com' + val.data.permalink + '">Comments (' + val.data.num_comments + ')</a><img src="' + imgURL + '"/></li>');
+						    	items.push('<li class="comicContainer" id="' + index + '"><div class="comicHeader"><h3 class="comicTitle">' + val.data.title + '</h3><a class="commentsLink" href="http://www.reddit.com' + val.data.permalink + '">Comments (' + val.data.num_comments + ')</a></div><img src="' + imgURL + '"/></li>');
 							}
 						});
 

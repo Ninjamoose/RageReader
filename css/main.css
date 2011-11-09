@@ -12,20 +12,26 @@ ul.page {
 li.comicContainer {
 	position:relative;
 	text-align:center;
-	width:700px;
-	background-color:#5C5C5C;
 	padding:10px 20px 20px;
+	margin:30px auto;
+}
+
+div.comicHeader {
+	position:relative;
+	width:960px;
 	margin:30px auto;
 }
 
 h3.comicTitle {
 	color:white;
 	text-align:left;
+	background-color:#5C5C5C;
+	padding:22px;
 }
 
 a.commentsLink {
 	position:absolute;
-	top:28px;
+	top:26px;
 	right:20px;
 	color:white;
 }
